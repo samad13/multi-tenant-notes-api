@@ -66,8 +66,8 @@ multi-tenant-notes-api/
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
-cd Multi-Tenant Notes API
+git clone <https://github.com/samad13/multi-tenant-notes-api.git>
+cd multi-Tenant Notes API
 
 # Start services (API + MongoDB)
 docker-compose up --build
