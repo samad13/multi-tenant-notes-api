@@ -1,8 +1,30 @@
 # Multi-Tenant Notes API
 
-
-
 A production-ready, multi-tenant Notes API built with FastAPI and MongoDB, featuring JWT authentication and role-based access control (RBAC).
+
+## 📋 Table of Contents
+
+- [Features](#features)
+- [Architecture](#architecture)
+- [Quick Start](#quick-start)
+  - [Option 1: Docker](#option-1-docker)
+  - [Option 2: Local Development](#option-2-local-development)
+- [API Endpoints](#api-endpoints)
+  - [Organizations](#organizations)
+  - [Users](#users)
+  - [Notes](#notes)
+- [Role Permissions](#role-permissions)
+- [Usage Examples](#usage-examples)
+  - [Note About Examples](#note-about-examples)
+  - [1. Create an Organization](#1-create-an-organization)
+  - [2. Create Users](#2-create-users)
+  - [3. Create a Note](#3-create-a-note-as-writer)
+  - [4. List Notes](#4-list-notes)
+  - [5. Get Specific Note](#5-get-specific-note)
+  - [6. Delete a Note](#6-delete-a-note-admin-only)
+- [Running Tests](#running-tests)
+
+---
 
 ## 🎯 Features
 
@@ -17,7 +39,6 @@ A production-ready, multi-tenant Notes API built with FastAPI and MongoDB, featu
 ## 🏗️ Architecture
 
 ```
-
 multi-tenant-notes-api/
 ├── app/                              # Core FastAPI application package
 │   ├── main.py                       # FastAPI app factory and entry point
@@ -68,7 +89,7 @@ multi-tenant-notes-api/
 
 ```bash
 # Clone the repository
-git clone https://github.com/samad13/multi-tenant-notes-api.git
+git clone https://github.com/samad13/multi-tenant-notes-api.git  
 cd multi-Tenant Notes API
 
 # Start services (API + MongoDB)
@@ -139,7 +160,7 @@ pytest tests/ -v
 
 ## 📝 Usage Examples
 
-## 💡 Note About Examples
+### 💡 Note About Examples
 
 The IDs in these examples (like `65f1a2b3c4d5e6f7g8h9i0j1`) are placeholders. 
 When you run the commands:
@@ -226,7 +247,6 @@ curl -X POST "http://localhost:8000/api/v1/organizations/${ORG_ID}/users" \
 TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
 ```
 
-
 ```bash
 # login user
 ORG_ID="65f1a2b3c4d5e6f7g8h9i0j1"
@@ -249,7 +269,6 @@ curl -X POST "http://localhost:8000/api/v1/organizations/${ORG_ID}/users/login" 
 # Save token for subsequent requests
 TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
 ```
-
 
 ### 3. Create a Note (as writer)
 
