@@ -36,7 +36,7 @@ A production-ready, multi-tenant Notes API built with FastAPI and MongoDB, featu
 - **Comprehensive Testing**: Automated tests for CRUD and permissions
 - **Docker Support**: Complete containerization setup
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 multi-tenant-notes-api/
