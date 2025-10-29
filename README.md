@@ -4,25 +4,25 @@ A production-ready, multi-tenant Notes API built with FastAPI and MongoDB, featu
 
 ## 📋 Table of Contents
 
-- [Features](#features)
-- [Architecture](#architecture)
-- [Quick Start](#quick-start)
+- [Features](#-features)
+- [Architecture](#️-architecture)
+- [Quick Start](#-quick-start)
   - [Option 1: Docker](#option-1-docker)
   - [Option 2: Local Development](#option-2-local-development)
-- [API Endpoints](#api-endpoints)
+- [API Endpoints](#-api-endpoints)
   - [Organizations](#organizations)
   - [Users](#users)
   - [Notes](#notes)
-- [Role Permissions](#role-permissions)
-- [Usage Examples](#usage-examples)
-  - [Note About Examples](#note-about-examples)
+- [Role Permissions](#-role-permissions)
+- [Usage Examples](#-usage-examples)
+  - [Note About Examples](#-note-about-examples)
   - [1. Create an Organization](#1-create-an-organization)
   - [2. Create Users](#2-create-users)
   - [3. Create a Note](#3-create-a-note-as-writer)
   - [4. List Notes](#4-list-notes)
   - [5. Get Specific Note](#5-get-specific-note)
   - [6. Delete a Note](#6-delete-a-note-admin-only)
-- [Running Tests](#running-tests)
+- [Running Tests](#-running-tests)
 
 ---
 
@@ -36,7 +36,7 @@ A production-ready, multi-tenant Notes API built with FastAPI and MongoDB, featu
 - **Comprehensive Testing**: Automated tests for CRUD and permissions
 - **Docker Support**: Complete containerization setup
 
-##  Architecture
+## 🏗️ Architecture
 
 ```
 multi-tenant-notes-api/
