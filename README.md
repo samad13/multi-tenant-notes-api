@@ -1,5 +1,27 @@
 # Multi-Tenant Notes API
 
+📚 Table of Contents
+🎯 Features
+🏗️ Architecture
+🚀 Quick Start
+Option 1: Docker
+Option 2: Local Development
+📡 API Endpoints
+Organizations
+Users
+Notes
+🔐 Role Permissions
+📝 Usage Examples
+💡 Note About Examples
+1. Create an Organization
+2. Create Users
+3. Create a Note (as writer)
+4. List Notes
+5. Get Specific Note
+6. Delete a Note (admin only)
+🧪 Running Tests
+
+
 A production-ready, multi-tenant Notes API built with FastAPI and MongoDB, featuring JWT authentication and role-based access control (RBAC).
 
 ## 🎯 Features
